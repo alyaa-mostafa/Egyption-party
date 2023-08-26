@@ -2,13 +2,17 @@
 $("#open").click(function(){
     $("#leftMenu").css("left", "0")
     $("#open").css("left", "270px")
-    $(".homeContent").css("marginLeft", "250px")
+    $("#open").css("display", "none")
+
+    // $(".homeContent").css("marginLeft", "250px")
 })
 
 $("#close").click(function(){
     $("#leftMenu").css("left", "-250px")
     $("#open").css("left", "10px")
-    $(".homeContent").css("marginLeft", "0")
+    $("#open").css("display", "block")
+
+    // $(".homeContent").css("marginLeft", "0")
 
 })
 

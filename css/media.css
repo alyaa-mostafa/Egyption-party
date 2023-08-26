@@ -5,12 +5,5 @@
    body #leftMenu a {
         font-size: 20px;
     }
-    body #leftMenu{
-        width: 200px;
-    }
-    body .count{
-        width: 100%;
-    padding: 40px;
-
-    }
+  
 }

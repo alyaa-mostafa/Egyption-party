@@ -1,5 +1,5 @@
 
-#party{
+#home{
     width: 100%;
     height: 100vh;
     background-image:url(../img/events-heavenly-header.jpg);
@@ -66,17 +66,17 @@
     left: 10px;
     transition: 0.5s;
 }
-#slideDown > div{
+#Duration > div{
     display: none;
     font-size: 13px;
     padding: 10px;
 }
-#slideDown{
+#Duration{
     margin: 100px auto; 
     width: 50%;
     
 }
-#slideDown h3{
+#Duration h3{
     padding: 10px;
     margin: 0;
     background-color: rgba(104, 6, 9, 0.737);
@@ -97,20 +97,19 @@
     background-color:rgb(85, 19, 19);
     color: white;
 }
-#count{
+#Details{
     background-image: url(../img/invitation-2508607__340.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
     position: relative;
-    height: 330px;
-    width: 100%;
+    height: 350px;
 }
-#count .container{
+/* #count .container{
     padding: 100px 0px;
-}
+} */
 .count{
-    padding: 50px;
+    padding: 30px;
     border: 1px solid #FFF;
     font-weight: 500;
     font-size: 30px;
