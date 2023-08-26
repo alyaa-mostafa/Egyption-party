@@ -1,0 +1,16 @@
+@media screen and (max-width:600px) {
+    body .homeContent h2{
+        font-size: 1.875rem;
+    }
+   body #leftMenu a {
+        font-size: 20px;
+    }
+    body #leftMenu{
+        width: 200px;
+    }
+    body .count{
+        width: 100%;
+    padding: 40px;
+
+    }
+}
